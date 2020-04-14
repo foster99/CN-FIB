@@ -5,7 +5,6 @@ invA = inv(A);
 for k = 1:kmax
     x_pre = x;
     zk = invA*x;
-    [~,j] = max(abs(zk));
     m = (zk' * x)/(x' * x);
     x = zk/m;
     

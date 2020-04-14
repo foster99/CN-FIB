@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,IE=9,chrome=1"><meta name="generator" content="MATLAB R2019b"><title>Ejercicio 1</title><style type="text/css">.rtcContent { padding: 30px; } .S0 { margin: 3px 10px 5px 4px; padding: 0px; line-height: 28.8px; min-height: 0px; white-space: pre-wrap; color: rgb(213, 80, 0); font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 24px; font-weight: 400; text-align: left;  }
+.CodeBlock { background-color: #F7F7F7; margin: 10px 0 10px 0;}
+.S1 { border-left: 1px solid rgb(233, 233, 233); border-right: 1px solid rgb(233, 233, 233); border-top: 1px solid rgb(233, 233, 233); border-bottom: 0px none rgb(0, 0, 0); border-radius: 4px 4px 0px 0px; padding: 6px 45px 0px 13px; line-height: 16.996px; min-height: 18px; white-space: nowrap; color: rgb(0, 0, 0); font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 14px;  }
+.S2 { border-left: 1px solid rgb(233, 233, 233); border-right: 1px solid rgb(233, 233, 233); border-top: 0px none rgb(0, 0, 0); border-bottom: 0px none rgb(0, 0, 0); border-radius: 0px; padding: 0px 45px 0px 13px; line-height: 16.996px; min-height: 18px; white-space: nowrap; color: rgb(0, 0, 0); font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 14px;  }
+.S3 { border-left: 1px solid rgb(233, 233, 233); border-right: 1px solid rgb(233, 233, 233); border-top: 0px none rgb(0, 0, 0); border-bottom: 1px solid rgb(233, 233, 233); border-radius: 0px; padding: 0px 45px 4px 13px; line-height: 16.996px; min-height: 18px; white-space: nowrap; color: rgb(0, 0, 0); font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 14px;  }
+.S4 { color: rgb(64, 64, 64); padding: 10px 0px 6px 17px; background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box; font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 14px; overflow-x: hidden; line-height: 16.996px;  }
+.S5 { border-left: 1px solid rgb(233, 233, 233); border-right: 1px solid rgb(233, 233, 233); border-top: 1px solid rgb(233, 233, 233); border-bottom: 0px none rgb(0, 0, 0); border-radius: 0px; padding: 6px 45px 0px 13px; line-height: 16.996px; min-height: 18px; white-space: nowrap; color: rgb(0, 0, 0); font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 14px;  }
+.embeddedOutputsErrorElement {min-height: 18px; max-height: 250px; overflow: auto;}
+.embeddedOutputsErrorElement.inlineElement {}
+.embeddedOutputsErrorElement.rightPaneElement {}
+.embeddedOutputsWarningElement{min-height: 18px; max-height: 250px; overflow: auto;}
+.embeddedOutputsWarningElement.inlineElement {}
+.embeddedOutputsWarningElement.rightPaneElement {}
+.diagnosticMessage-wrapper {font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 12px;}
+.diagnosticMessage-wrapper.diagnosticMessage-warningType {color: rgb(255,100,0);}
+.diagnosticMessage-wrapper.diagnosticMessage-warningType a {color: rgb(255,100,0); text-decoration: underline;}
+.diagnosticMessage-wrapper.diagnosticMessage-errorType {color: rgb(230,0,0);}
+.diagnosticMessage-wrapper.diagnosticMessage-errorType a {color: rgb(230,0,0); text-decoration: underline;}
+.diagnosticMessage-wrapper .diagnosticMessage-messagePart,.diagnosticMessage-wrapper .diagnosticMessage-causePart {white-space: pre-wrap;}
+.diagnosticMessage-wrapper .diagnosticMessage-stackPart {white-space: pre;}
+.embeddedOutputsTextElement,.embeddedOutputsVariableStringElement {white-space: pre; word-wrap: initial; min-height: 18px; max-height: 250px; overflow: auto;}
+.textElement,.rtcDataTipElement .textElement {padding-top: 3px;}
+.embeddedOutputsTextElement.inlineElement,.embeddedOutputsVariableStringElement.inlineElement {}
+.inlineElement .textElement {}
+.embeddedOutputsTextElement.rightPaneElement,.embeddedOutputsVariableStringElement.rightPaneElement {min-height: 16px;}
+.rightPaneElement .textElement {padding-top: 2px; padding-left: 9px;}
+.S6 { margin: 10px 10px 9px 4px; padding: 0px; line-height: 21px; min-height: 0px; white-space: pre-wrap; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 14px; font-weight: 400; text-align: left;  }
+.S7 { border-left: 1px solid rgb(233, 233, 233); border-right: 1px solid rgb(233, 233, 233); border-top: 0px none rgb(0, 0, 0); border-bottom: 1px solid rgb(233, 233, 233); border-radius: 0px 0px 4px 4px; padding: 0px 45px 4px 13px; line-height: 16.996px; min-height: 18px; white-space: nowrap; color: rgb(0, 0, 0); font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 14px;  }</style></head><body><div class = rtcContent><h1  class = 'S0'><span>Ejercicio 1</span></h1><div class="CodeBlock"><div class="inlineWrapper"><div  class = 'S1'><span style="white-space: pre;"><span>N = 16;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>a = 4;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>A = zeros(N);</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span style="color: rgb(0, 0, 255);">for </span><span>j = 1:N</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    </span><span style="color: rgb(0, 0, 255);">for </span><span>i = 1:N</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>        </span><span style="color: rgb(0, 0, 255);">if </span><span>(i == j)</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>            A(i,j) = a;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>        </span><span style="color: rgb(0, 0, 255);">elseif </span><span>abs(j-i) == 1</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>            A(i,j) = -1;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>        </span><span style="color: rgb(0, 0, 255);">end</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    </span><span style="color: rgb(0, 0, 255);">end</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span style="color: rgb(0, 0, 255);">end</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>A(end,1) = a/2;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>A(1,end) = a/2;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>b = (a-2) .* ones(N,1);</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>b(1) = a/2 - 1;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>b(end) = a/2 - 1;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span style="color: rgb(60, 118, 61);">% A, b</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span style="color: rgb(60, 118, 61);">% A\b</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span style="color: rgb(60, 118, 61);">% Matrices comunes necesarias (GS/J)</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>D = diag(diag(A));</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>d = diag(1 ./diag(A));</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>L = tril(A,-1);</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>U = triu(A,1);</span></span></div></div><div class="inlineWrapper outputs"><div  class = 'S3'><span style="white-space: pre;"><span>tol = 0.5e-8</span></span></div><div  class = 'S4'><div class='variableElement' style='font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 12px; '>tol = 5.0000e-09</div></div></div><div class="inlineWrapper"><div  class = 'S5'><span style="white-space: pre;"><span style="color: rgb(60, 118, 61);">% Jacobi</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>[</span><span class="warning_squiggle_rte warningHighlight">x</span><span>, it, es_convergente, rhoJ] = metodoJacobi(A,b,D,d,tol);</span></span></div></div><div class="inlineWrapper outputs"><div  class = 'S3'><span style="white-space: pre;"><span>es_convergente, rhoJ, it</span></span></div><div  class = 'S4'><div class="inlineElement eoOutputWrapper embeddedOutputsVariableStringElement" uid="B44D0F1D" data-testid="output_1" data-width="556" data-height="34" data-hashorizontaloverflow="false" style="width: 585px; max-height: 261px;"><div class="textElement"><div><span class="variableNameElement">es_convergente = <span class="headerElement">logical</span></span></div><div>   1
+</div></div></div><div class='variableElement' style='font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 12px; '>rhoJ = 0.6250</div><div class='variableElement' style='font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 12px; '>it = 36</div></div></div><div class="inlineWrapper"><div  class = 'S5'><span style="white-space: pre;"><span style="color: rgb(60, 118, 61);">% Gauss - Seidel</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>[</span><span class="warning_squiggle_rte warningHighlight">x</span><span>, it, es_convergente, rhoGS] = metodoGaussSeidel(b,D,L,U,tol);</span></span></div></div><div class="inlineWrapper outputs"><div  class = 'S3'><span style="white-space: pre;"><span>es_convergente, rhoGS, it</span></span></div><div  class = 'S4'><div class="inlineElement eoOutputWrapper embeddedOutputsVariableStringElement" uid="B17CC926" data-testid="output_4" data-width="556" data-height="34" data-hashorizontaloverflow="false" style="width: 585px; max-height: 261px;"><div class="textElement"><div><span class="variableNameElement">es_convergente = <span class="headerElement">logical</span></span></div><div>   1
+</div></div></div><div class='variableElement' style='font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 12px; '>rhoGS = 0.3858</div><div class='variableElement' style='font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 12px; '>it = 22</div></div></div><div class="inlineWrapper"><div  class = 'S5'><span style="white-space: pre;"><span style="color: rgb(60, 118, 61);">% SOR - Gauss-Seidel</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>test_w = </span><span class="warning_squiggle_rte">[</span><span>0:0.1:2];</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>rhos = zeros(1,20);</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span style="color: rgb(0, 0, 255);">for </span><span>k = 1:20</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    w = test_w(k);</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    Bwgs= (inv(w*L+D))*((1-w)*D-w*U);</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    rhos(k) = max(abs(eig(Bwgs)));</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span style="color: rgb(0, 0, 255);">end</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>[rho, index] = min(rhos);</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>w = test_w(index);</span></span></div></div><div class="inlineWrapper outputs"><div  class = 'S3'><span style="white-space: pre;"><span>rho, w</span></span></div><div  class = 'S4'><div class='variableElement' style='font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 12px; '>rho = 0.2749</div><div class='variableElement' style='font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 12px; '>w = 1.1000</div></div></div><div class="inlineWrapper"><div  class = 'S5'><span style="white-space: pre;"><span>[x, it, es_convergente, rhoWGS] = metodoSOR(A,b,D,L,U,w,tol);</span></span></div></div><div class="inlineWrapper outputs"><div  class = 'S3'><span style="white-space: pre;"><span>es_convergente, rhoWGS, it</span></span></div><div  class = 'S4'><div class="inlineElement eoOutputWrapper embeddedOutputsVariableStringElement" uid="F31553AA" data-testid="output_9" data-width="556" data-height="34" data-hashorizontaloverflow="false" style="width: 585px; max-height: 261px;"><div class="textElement"><div><span class="variableNameElement">es_convergente = <span class="headerElement">logical</span></span></div><div>   1
+</div></div></div><div class='variableElement' style='font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 12px; '>rhoWGS = 0.2749</div><div class='variableElement' style='font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 12px; '>it = 16</div></div></div></div><div  class = 'S6'><span>EL METODO SOR UTILIZA 16 ITERACIONES, ES EL QUE MENOS HACE</span></div><div class="CodeBlock"><div class="inlineWrapper"><div  class = 'S1'><span style="white-space: pre;"><span style="color: rgb(0, 0, 255);">function </span><span>[x, it, es_convergente, rhoJ] = metodoJacobi(A,b,D,d,tol)</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    Bj = -d*(A-D);</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    cj = d*b;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    rhoJ = max(abs(eig(Bj)));</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    </span><span style="color: rgb(0, 0, 255);">if </span><span>(rhoJ &gt;= 1)</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>        x = []; it = 0;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>        es_convergente = false;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    </span><span style="color: rgb(0, 0, 255);">else</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>        es_convergente = true;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>        B = Bj; c = cj; it = 0; error_aprox = 1;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>        x = zeros(size(b));</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>        </span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>        </span><span style="color: rgb(0, 0, 255);">while </span><span>error_aprox &gt; tol</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>            next_x = B*x+c;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>            error_aprox = norm(next_x - x,</span><span style="color: rgb(160, 32, 240);">'inf'</span><span>);</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>            x = next_x;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>            it = it + 1;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>        </span><span style="color: rgb(0, 0, 255);">end</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    </span><span style="color: rgb(0, 0, 255);">end</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span style="color: rgb(0, 0, 255);">end</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span style="color: rgb(0, 0, 255);">function </span><span>[x, it, es_convergente, rhoGS] = metodoGaussSeidel(b,D,L,U,tol)</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    C = inv(L+D);</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    Bgs = -C*U;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    cgs = </span><span class="warning_squiggle_rte">C</span><span>*b;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    rhoGS = max(abs(eig(Bgs)));</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    </span><span style="color: rgb(0, 0, 255);">if </span><span>(rhoGS &gt;= 1) </span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>        x = []; it = 0;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>        es_convergente = false;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    </span><span style="color: rgb(0, 0, 255);">else</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>        es_convergente = true;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>        B=Bgs; c=cgs; it = 0; error_aprox = 1;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>        x=zeros(size(b));</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>        </span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>        </span><span style="color: rgb(0, 0, 255);">while </span><span>error_aprox &gt; tol</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>            it = it + 1;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>            next_x = B*x+c;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>            error_aprox = norm(next_x - x,</span><span style="color: rgb(160, 32, 240);">'inf'</span><span>);</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>            </span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>            x = next_x;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>        </span><span style="color: rgb(0, 0, 255);">end</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    </span><span style="color: rgb(0, 0, 255);">end</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span style="color: rgb(0, 0, 255);">end</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span style="color: rgb(0, 0, 255);">function </span><span>[x, i, es_convergente, rhoWGS] = metodoSOR(A,b,D,L,U,w,tol)</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span style="color: rgb(60, 118, 61);">    %% Matrius iteració SORgseidel</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    d = inv(w*L+D);</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    Bwgs=</span><span class="warning_squiggle_rte">d</span><span>*((1-w)*D-w*U);</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    cwgs = </span><span class="warning_squiggle_rte">d</span><span>*w*b;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    rhoWGS = max(abs(eig(Bwgs)));</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    es_convergente = (rhoWGS &lt; 1);</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span style="color: rgb(60, 118, 61);">    %% Iteracions del mètode</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    </span><span style="color: rgb(0, 0, 255);">if </span><span>(rhoWGS &lt; 1)</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>        B=Bwgs; c=cwgs;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>        x=zeros(size(b));</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>        </span><span style="color: rgb(0, 0, 255);">for </span><span>i=1:1000000</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>            y=B*x+c;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>            </span><span class="warning_squiggle_rte">r</span><span>(i)=norm(A*y-b);</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>            </span><span style="color: rgb(0, 0, 255);">if </span><span>(r(i) &lt; tol); </span><span style="color: rgb(0, 0, 255);">break</span><span>; </span><span style="color: rgb(0, 0, 255);">end</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>            x=y;</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>        </span><span style="color: rgb(0, 0, 255);">end</span></span></div></div><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>    </span><span style="color: rgb(0, 0, 255);">end</span></span></div></div><div class="inlineWrapper"><div  class = 'S7'><span style="white-space: pre;"><span style="color: rgb(0, 0, 255);">end</span></span></div></div></div></div>
+<br>
+<!-- 
+##### SOURCE BEGIN #####
+%% Ejercicio 1
+
+N = 16;
+a = 4;
+
+A = zeros(N);
+for j = 1:N
+    for i = 1:N
+        if (i == j)
+            A(i,j) = a;
+        elseif abs(j-i) == 1
+            A(i,j) = -1;
+        end
+    end
+end
+
+A(end,1) = a/2;
+A(1,end) = a/2;
+
+b = (a-2) .* ones(N,1);
+b(1) = a/2 - 1;
+b(end) = a/2 - 1;
+
+% A, b
+% A\b
+
+% Matrices comunes necesarias (GS/J)
+D = diag(diag(A));
+d = diag(1 ./diag(A));
+L = tril(A,-1);
+U = triu(A,1);
+tol = 0.5e-8
+% Jacobi
+[x, it, es_convergente, rhoJ] = metodoJacobi(A,b,D,d,tol);
+es_convergente, rhoJ, it
+% Gauss - Seidel
+[x, it, es_convergente, rhoGS] = metodoGaussSeidel(b,D,L,U,tol);
+es_convergente, rhoGS, it
+% SOR - Gauss-Seidel
+test_w = [0:0.1:2];
+rhos = zeros(1,20);
+
+for k = 1:20
+    w = test_w(k);
+    Bwgs= (inv(w*L+D))*((1-w)*D-w*U);
+    rhos(k) = max(abs(eig(Bwgs)));
+end
+
+[rho, index] = min(rhos);
+w = test_w(index);
+rho, w
+[x, it, es_convergente, rhoWGS] = metodoSOR(A,b,D,L,U,w,tol);
+es_convergente, rhoWGS, it
+%% 
+% EL METODO SOR UTILIZA 16 ITERACIONES, ES EL QUE MENOS HACE
+
+function [x, it, es_convergente, rhoJ] = metodoJacobi(A,b,D,d,tol)
+
+    Bj = -d*(A-D);
+    cj = d*b;
+    rhoJ = max(abs(eig(Bj)));
+    if (rhoJ >= 1)
+        x = []; it = 0;
+        es_convergente = false;
+    else
+        es_convergente = true;
+        B = Bj; c = cj; it = 0; error_aprox = 1;
+        x = zeros(size(b));
+        
+        while error_aprox > tol
+            next_x = B*x+c;
+            error_aprox = norm(next_x - x,'inf');
+            x = next_x;
+            it = it + 1;
+        end
+    end
+end
+
+function [x, it, es_convergente, rhoGS] = metodoGaussSeidel(b,D,L,U,tol)
+    C = inv(L+D);
+    Bgs = -C*U;
+    cgs = C*b;
+    rhoGS = max(abs(eig(Bgs)));
+    if (rhoGS >= 1) 
+        x = []; it = 0;
+        es_convergente = false;
+    else
+        es_convergente = true;
+        B=Bgs; c=cgs; it = 0; error_aprox = 1;
+        x=zeros(size(b));
+        
+        while error_aprox > tol
+            it = it + 1;
+            next_x = B*x+c;
+            error_aprox = norm(next_x - x,'inf');
+            
+            x = next_x;
+        end
+    end
+end
+
+function [x, i, es_convergente, rhoWGS] = metodoSOR(A,b,D,L,U,w,tol)
+    %% Matrius iteració SORgseidel
+    d = inv(w*L+D);
+    Bwgs=d*((1-w)*D-w*U);
+    cwgs = d*w*b;
+    rhoWGS = max(abs(eig(Bwgs)));
+    es_convergente = (rhoWGS < 1);
+
+    %% Iteracions del mètode
+    if (rhoWGS < 1)
+        B=Bwgs; c=cwgs;
+        x=zeros(size(b));
+        for i=1:1000000
+            y=B*x+c;
+            r(i)=norm(A*y-b);
+            if (r(i) < tol); break; end
+            x=y;
+        end
+    end
+end
+##### SOURCE END #####
+--></body></html>
